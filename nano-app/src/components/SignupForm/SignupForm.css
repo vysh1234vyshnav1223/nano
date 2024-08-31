@@ -1,0 +1,112 @@
+*, *:focus, *:hover{
+    outline: none;
+}
+
+
+::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.signup-intro{
+    text-align: center;
+    padding-top: 10px;
+    color: #B197FC;
+}
+
+.login-redirect{
+    text-align: center;
+    color: white;
+
+}
+
+.login-redirect a{
+    outline: none;
+    text-decoration: none;
+    color: #B197FC;
+}
+
+.signupform{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.left-form{
+    margin: 30px 80px 100px 80px;
+    width: 50%;
+    text-align: center;
+}
+
+.right-form{
+    margin: 30px 80px 100px 80px;
+    width: 50%;
+    text-align: center;
+}
+
+.form-field{
+    margin: 40px 0;
+}
+
+.form-field label{
+    margin-right: 8px;
+
+}
+
+.signup-form-label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    justify-content: center;
+}
+
+
+.form-field input, textarea{
+    background-color: transparent;
+    width: 220px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.form-field input::placeholder, textarea::placeholder{
+    color: white;
+}
+
+
+.form-field input[type="radio"]{
+    width: 30px;
+    height: 20px;
+    margin: 0;
+}
+
+.submit-button{
+    width: 50%;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #B197FC;
+    font-size: 15px;
+    color: hsl(244, 28%, 23%);
+    position: relative;
+    bottom: 100px;
+    margin: 0 300px;
+}
+
+.submit-button:hover{
+    background-color: #a081fe;
+}

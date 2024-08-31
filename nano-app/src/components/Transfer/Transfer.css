@@ -1,0 +1,52 @@
+.transfer-money-container{
+    margin: 50px;
+}
+
+.transfer-money-container h2{
+    text-align: center;
+    color: white;
+}
+
+.transfer-money-form{
+    border: 1px solid #B197FC;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.transfer-form-label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    color: white;
+}
+
+.transfer-submit-button{
+    width: 40%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #B197FC;
+    font-size: 15px;
+    color: hsl(244, 28%, 23%);
+    margin-bottom: 20px;
+}
+
+.transfer-submit-button:hover{
+    background-color: #a081fe;   
+}
+
+form select{
+    width: 240px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+form option{
+    background-color: grey;
+}

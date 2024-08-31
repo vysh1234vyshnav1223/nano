@@ -1,0 +1,56 @@
+.header{
+    margin: 10px 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 100vw;
+}
+
+.logo{
+    display: flex; 
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo-text{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 28px;
+    margin-bottom: 0;
+
+}
+
+.header-options a{
+    text-decoration: none;
+    padding: 25px;
+    color: #fff;
+}
+
+.header-button button{
+    border-radius: 30px;
+    border-color: #fff;
+    background-color: hsl(244, 28%, 23%);
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    font-style: italic;
+    
+}
+.header-button button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logged-in-icon{
+    width: 40px;
+    height: 40px;
+    vertical-align: baseline;
+    color: #B197FC;
+    cursor: pointer;
+}

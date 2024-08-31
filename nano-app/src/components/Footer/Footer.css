@@ -1,0 +1,32 @@
+.footer{
+    margin-top: 40px;
+    border-top: 1px solid #fff;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-logo svg{
+    margin: 40px 0 0 50px;
+}
+
+.footer-logo-text{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 36px;
+    margin-bottom: 0;
+
+}
+
+.footer-text{
+    margin: 0 150px;
+    color: #fff;
+}

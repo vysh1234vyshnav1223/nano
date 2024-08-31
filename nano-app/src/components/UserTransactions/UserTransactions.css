@@ -1,0 +1,35 @@
+.user-transaction-container{
+    margin: 50px;
+}
+
+
+.user-account-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-account-info h3{
+    margin-top: 50px;
+    color: white;
+}
+
+.user-transaction-table{
+    width: 100%;
+}
+
+.user-transaction-table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.transaction-type{
+    width: 15%;
+}
+
+.user-transaction-table th:last-child{
+    border-right: none;
+}
+
+.user-transaction-table{
+    color: white;
+}

@@ -1,0 +1,61 @@
+.beneficiary-list-container{
+    margin: 70px 50px 50px;
+}
+
+.beneficiary-list-intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.beneficiary-list-intro h2{
+    color: white;
+}
+
+.add-beneficiary-button{
+    width: 20%;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #B197FC;
+    font-size: 15px;
+    color: hsl(244, 28%, 23%);
+    position: relative;
+    cursor: pointer;
+    
+}
+
+ .beneficiary-list-table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.beneficiary-list-table th{
+    padding: 10px;
+    color: white;
+}
+
+.table-heading{
+    font-weight: bold;
+}
+
+
+table, th, td {
+    border: 1px solid #B197FC;
+    border-collapse: collapse;
+    font-weight: normal;
+
+  }
+  
+
+ .beneficiary-submit-button {
+    padding: 10px 20px;
+    background-color: #B197FC;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .beneficiary-submit-button:hover {
+    background-color: #a081fe;
+  }

@@ -1,0 +1,38 @@
+.login-container{
+
+}
+
+.login-form{
+    border: 1px solid #B197FC;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-form-label{
+    display: inline-block;
+    width: 60px; 
+    text-align: right;
+    margin-right: 30px !important;
+    color: white;
+}
+
+
+
+
+.login-button{
+    width: 40%;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #B197FC;
+    font-size: 15px;
+    color: hsl(244, 28%, 23%);
+    margin-bottom: 20px;
+}
+
+.login-button:hover{
+    background-color: #a081fe;
+}
